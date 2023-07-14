@@ -166,17 +166,25 @@ flex-wrap: wrap;
     justify-content: space-between;
 }
 .experiencia__boton--repo{
-    border-radius: 6px;
-    font-family: sans-serif;
-    color: black;
-    background: transparent;
+    border: none; 
+  color: black; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px;
+}
+.experiencia__boton--repo:hover{
+    background: #b07d79; color: white;
 }
 .experience__boton--demo{
-    
-    border-radius: 6px;
-    font-family: sans-serif;
-    color: black;
-    background: transparent;
+
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px
+}
+.experience__boton--demo:hover{
+    background: #b07d79; color: white;
 }
 .experience__img{
     border-radius: 25px;
