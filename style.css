@@ -176,8 +176,7 @@ flex-wrap: wrap;
     background: #b07d79; color: white;
 }
 .experience__boton--demo{
-
-    border: none; 
+    border:none; 
     color: black; 
     padding: 14px 28px; 
     cursor: pointer; 
