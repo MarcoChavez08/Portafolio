@@ -11,12 +11,7 @@ body{
 .menu{
     position:static;
 }
-@media screen and (min-width: 0) {
-.menu__list{
-    padding: 0 1rem;
-    justify-content: center;
-}
-}
+
 .menu__header{
     align-items:center ;
     display: flex;
@@ -257,3 +252,9 @@ flex-wrap: wrap;
 .formcontacto__textarea{
     width: 350px;
 }
+@media screen and (min-width: 0) {
+    .menu__list{
+        padding: 0 1rem;
+        justify-content: center;
+    }
+    }
